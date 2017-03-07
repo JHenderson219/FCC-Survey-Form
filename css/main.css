@@ -1,3 +1,77 @@
 body{
 	font-family: 'open-sans', sans-serif;
+	font-weight: 300;
 }
+
+.form-body{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin:auto;
+	max-width: 640px;
+}
+
+.form-header{
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+.form-body input{
+	font-size: 3em;
+}
+#name{
+
+	width: 80%;
+}
+#email{
+
+	width: 80%;
+}
+#number{
+
+	width: 80%;
+}
+#dropdown{
+
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+#checkbox2{
+	margin-bottom: 10px;
+}
+label{
+	margin: auto;
+	padding: 10px;
+}
+input{
+	margin: auto;
+}
+select{
+	margin: auto;
+}
+textarea{
+	margin: auto;
+	width: 80%;
+	height: 30%;
+	min-height: 200px;
+}
+
+
+.checkbox-group{
+	display: flex;
+	flex-flow: column wrap;
+	margin: auto;
+	text-align: center;
+}
+.radio-group{
+	display: flex;
+	flex-flow: column wrap;
+	margin: auto;
+	text-align: center;
+}
+
