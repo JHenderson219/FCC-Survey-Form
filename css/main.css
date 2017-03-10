@@ -1,6 +1,5 @@
 body{
-	font-family: 'open-sans', sans-serif;
-	font-weight: 300;
+	font-family: 'Exo', sans-serif;
 }
 
 .form-body{
@@ -11,6 +10,7 @@ body{
 	width: 80%;
 	margin:auto;
 	max-width: 640px;
+	text-align: center;
 }
 
 .form-header{
@@ -36,10 +36,10 @@ body{
 	width: 80%;
 }
 #dropdown{
-
 	width: 80%;
 	margin: auto;
 	margin-bottom: 10px;
+	font-size: 1.5em;
 }
 #checkbox2{
 	margin-bottom: 10px;
@@ -50,9 +50,11 @@ label{
 }
 input{
 	margin: auto;
+	font-family: 'Exo', sans-serif;
 }
 select{
 	margin: auto;
+	font-family: 'Exo', sans-serif;
 }
 textarea{
 	margin: auto;
@@ -70,8 +72,17 @@ textarea{
 }
 .radio-group{
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
 	margin: auto;
 	text-align: center;
 }
 
+.header-img{
+	height: 30%;
+	width: 30%;
+	margin: auto;
+	position: relative;
+}
+#submit{
+	margin: 20px;
+}
